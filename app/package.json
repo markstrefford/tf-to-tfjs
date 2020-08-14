@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Testing migration to tf.js",
+  "main": "index.js",
+  "scripts": {
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markstrefford/tf-to-tfjs.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "tf.js",
+    "deep",
+    "learning"
+  ],
+  "author": "Mark Strefford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markstrefford/tf-to-tfjs/issues"
+  },
+  "homepage": "https://github.com/markstrefford/tf-to-tfjs#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.0.1"
+  }
+}

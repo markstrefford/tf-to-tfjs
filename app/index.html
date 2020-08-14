@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test tf.js model migration and loading</title>
+
+    <!-- Load external libraries here rather than have a bloated viewer.js -->
+    <!--  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>-->
+
+    <style></style>
+</head>
+<body>
+<!-- Div for loading spinner etc. -->
+<div id="loading"></div>
+
+<!-- Div for status and info messages -->
+<div id="status"></div>
+
+<!-- This is where we render -->
+<canvas>
+</canvas>
+
+<!-- Video feed, not displayed here! -->
+<video id="video"
+       autoplay
+       playsinline
+       muted
+<!--         style="display:none"-->
+width="512" height="512">
+</video>
+
+<!-- Load scripts -->
+<!--  <script src="js/viewer.js"></script>-->
+
+<!-- Manually created this using browserify -->
+<!--<script src="index.js"></script>-->
+
+<script src="main.js"></script>
+</body>
+</html>
