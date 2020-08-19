@@ -4,7 +4,8 @@ let model
 
 const loadTfModel = async () => {
     console.log('Loading model...')
-    model = await tf.loadLayersModel('./models/model.json');
+    model = await tf.loadGraphModel('./models/model.json');
+    // model = await tf.loadLayersModel('./models/model.json');
     console.log('Successfully loaded model');
 }
 
